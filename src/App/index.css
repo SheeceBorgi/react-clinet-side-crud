@@ -36,6 +36,7 @@
 }
 
 .accordion-item-details.active-accordion {
+  overflow-y: auto;
   height: 250px;
 }
 
