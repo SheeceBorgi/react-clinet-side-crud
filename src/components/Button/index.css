@@ -1,0 +1,37 @@
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px 25px;
+  margin-right: 20px;
+  transition: all 0.3s;
+}
+
+.primary-btn {
+  background-color: #ff3500;
+  border: 1px solid #ff3500;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.primary-btn:hover {
+  background-color: #b32500;
+}
+
+.outlined-btn {
+  background-color: #fff;
+  border: 1px solid #c4c4c8;
+  border-radius: 10px;
+  color: #000;
+}
+
+.outlined-btn:hover {
+  background-color: #fff;
+  border-color: #ff3500;
+  color: #ff3500;
+}

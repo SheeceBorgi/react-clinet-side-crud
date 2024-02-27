@@ -1,0 +1,92 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.accordion-container {
+  border: 1px solid #c4c4c8;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.accordion-item-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordion-item-header-image {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.accordion-item-details {
+  overflow: hidden;
+  height: 0;
+  transition: height 0.2s ease-in-out;
+}
+
+.accordion-item-details.active-accordion {
+  height: 250px;
+}
+
+.accordion-item-details-gender,
+.accordion-item-details-country,
+.accordion-item-details-age {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.accordion-item-details-description {
+  margin-top: 20px;
+}
+
+.accordion-item-details-age-label,
+.accordion-item-details-gender-label,
+.accordion-item-details-country-label,
+.accordion-item-details-description-label {
+  color: #767679;
+  font-size: 0.9em;
+}
+
+.accordion-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.accordion-item-user-details {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.accordion-item-footer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.accordionitem-details-label-text {
+  margin-top: 10px;
+}
+
+.modal-text {
+  margin-bottom: 50px;
+}
+
+.modal-footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 10px;
+}

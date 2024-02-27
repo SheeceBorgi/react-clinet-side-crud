@@ -1,0 +1,10 @@
+.icon-wrapper {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.icon-wrapper:disabled {
+  cursor: not-allowed;
+}

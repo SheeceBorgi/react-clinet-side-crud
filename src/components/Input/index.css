@@ -1,0 +1,28 @@
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c8;
+  border-radius: 10px;
+  background-color: transparent;
+  resize: none;
+  min-height: 84px;
+  font-size: 1em;
+  font-family: Roboto, sans-serif;
+  padding: 5px;
+  outline: none;
+}
+
+input {
+  font-size: 1em;
+  font-family: Roboto, sans-serif;
+}
+
+.input-wrapper {
+  border: 1px solid #c4c4c8;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0px 10px;
+  min-height: 34px;
+}
